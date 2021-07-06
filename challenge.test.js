@@ -11,10 +11,10 @@ Hint: You can use the array function reverse
 
 const reverseString = (str) => {
     // Solution code here...
-let str = "Hello World"
-const sul = str .reverse();
-console.loge(sul);
+    return str.split('').reverse().join('');
 };
+
+
     
 
 
